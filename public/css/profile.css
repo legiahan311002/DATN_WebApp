@@ -1,0 +1,127 @@
+.nav {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 200px;
+    /* Đặt chiều rộng của nav */
+
+}
+.nav .profile-image{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.nav .profile-image #image {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 100px;
+    margin-bottom: 5px;
+    border-left: 1px solid #d6d5d5;
+}
+.nav a {
+    color: rgb(72, 70, 70);
+    text-decoration: none;
+    padding: 0.5em;
+    padding-left: 2em;
+}
+
+section {
+    flex: 1;
+}
+
+#profile-tab,
+#password-tab,
+#view-tab,
+#settings-tab {
+    cursor: pointer;
+}
+
+.profile-container {
+    width: 85%;
+    min-height: 80vh;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.separator {
+    border-top: 1px solid #efefef;
+    margin: 20px 0;
+}
+
+label {
+    margin: 10px;
+    color: #555;
+}
+
+.input {
+    margin-left: 20px;
+    width: 250px;
+    border: 1px solid #efefef;
+    padding: 8px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-left: 20px;
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+    padding-right: 10%;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+.layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.layout-left {
+    width: 50%;
+}
+
+.layout-left div {
+    display: flex;
+    justify-content: right;
+}
+
+.layout-right {
+    width: 48%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-left: 30px;
+    border-left: 1px solid #efefef;
+    height: 200px;
+}
+
+.image-upload {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#profile-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 100px;
+    border-left: 1px solid #efefef;
+}

@@ -1,0 +1,48 @@
+.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profile-head {
+    transform: translateY(5.5rem)
+}
+
+.bg-shadow {
+    background-color: #fff;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+    color: #000;
+}
+
+.name-shop {
+    color: #000;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+
+
+.avt-shop {
+    width: 130px;
+    height: 130px;
+    margin-right: 0;
+}
+
+.cover-container {
+    position: relative;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.cover {
+    position: relative;
+    z-index: 1;
+}
+
